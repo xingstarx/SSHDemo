@@ -1,4 +1,4 @@
-package com.deppon.test06.entity;
+package com.star.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

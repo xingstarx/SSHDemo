@@ -1,14 +1,13 @@
-package com.deppon.test06.dao.impl;
+package com.star.dao.impl;
 
-import java.util.List;
-
+import com.star.dao.IPersonDao;
+import com.star.entity.PersonEntity;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
-import com.deppon.test06.dao.IPersonDao;
-import com.deppon.test06.entity.PersonEntity;
+import java.util.List;
 
 public class PersonDao implements IPersonDao {
 	private SessionFactory factory;

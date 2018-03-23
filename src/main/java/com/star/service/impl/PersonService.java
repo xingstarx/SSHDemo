@@ -1,10 +1,10 @@
-package com.deppon.test06.service.impl;
+package com.star.service.impl;
+
+import com.star.dao.IPersonDao;
+import com.star.entity.PersonEntity;
+import com.star.service.IPersonService;
 
 import java.util.List;
-
-import com.deppon.test06.dao.IPersonDao;
-import com.deppon.test06.entity.PersonEntity;
-import com.deppon.test06.service.IPersonService;
 
 public class PersonService implements IPersonService {
 	private IPersonDao personDao;

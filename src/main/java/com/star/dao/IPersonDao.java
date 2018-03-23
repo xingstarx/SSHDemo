@@ -1,8 +1,8 @@
-package com.deppon.test06.dao;
+package com.star.dao;
+
+import com.star.entity.PersonEntity;
 
 import java.util.List;
-
-import com.deppon.test06.entity.PersonEntity;
 
 public interface IPersonDao {
 	

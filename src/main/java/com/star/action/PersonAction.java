@@ -1,10 +1,10 @@
-package com.deppon.test06.action;
+package com.star.action;
+
+import com.opensymphony.xwork2.ActionSupport;
+import com.star.entity.PersonEntity;
+import com.star.service.IPersonService;
 
 import java.util.List;
-
-import com.deppon.test06.entity.PersonEntity;
-import com.deppon.test06.service.IPersonService;
-import com.opensymphony.xwork2.ActionSupport;
 
 public class PersonAction extends ActionSupport {
 	private static final long serialVersionUID = 3688652545792174296L;

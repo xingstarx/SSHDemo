@@ -1,8 +1,8 @@
-package com.deppon.test06.service;
+package com.star.service;
+
+import com.star.entity.PersonEntity;
 
 import java.util.List;
-
-import com.deppon.test06.entity.PersonEntity;
 
 public interface IPersonService {
 	
